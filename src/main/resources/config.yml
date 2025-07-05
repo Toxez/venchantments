@@ -1,0 +1,14 @@
+enchantments:
+  drill:
+    name: "Бур I"
+    size: 1 # куб 3x3x3 блоков, то есть с каждой стороны по 1 блоку
+    chance: 50.0
+    allow-enchantment-items: ['DIAMOND_PICKAXE']
+  magnet:
+    name: "Магнит I"
+    chance: 80.0
+    allow-enchantment-items: ['DIAMOND_PICKAXE', 'DIAMOND_AXE']
+  auto-furnace:
+    name: "Авто плавка I"
+    chance: 90.0
+    allow-enchantment-items: ['DIAMOND_PICKAXE']

@@ -1,0 +1,15 @@
+name: VEnchantments
+version: '${project.version}'
+main: ua.tox8729.venchantments.VEnchantments
+api-version: '1.16'
+author: [ Tox_8729 ]
+depend: [ WorldGuard ]
+
+commands:
+  venchantments:
+    usage: /<command> give <ник> <зачар> <уровень> <количество>
+    permission: venchantments.give
+
+permissions:
+  venchantments.give:
+    default: op
